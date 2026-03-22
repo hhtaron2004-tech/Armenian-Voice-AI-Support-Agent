@@ -1,0 +1,301 @@
+[
+  {
+    "id": "araratbank_head_office",
+    "type": "branch",
+    "content": "Head Office: 87 Buzand St., Yerevan. Phone: +374-10-59-23-23. Working hours: Monday-Friday 09:00-17:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "87 Buzand St.",
+      "working_hours": "Mon-Fri 09:00-17:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_abovyan_branch",
+    "type": "branch",
+    "content": "Abovyan branch: 1/21 Hanrapetutyan St., Abovyan. Phones: +374-60-37-67-13, +374-60-37-67-14. Working hours: Mon-Fri 09:00-17:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Abovyan",
+      "region": "Kotayk",
+      "address": "1/21 Hanrapetutyan St.",
+      "working_hours": "Mon-Fri 09:00-17:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_agarak_branch",
+    "type": "branch",
+    "content": "Agarak branch: Meghri customs area, Syunik region. Phone: +374-60-37-67-18. Working hours: around the clock mode.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Agarak",
+      "region": "Syunik",
+      "address": "Meghri customs area",
+      "working_hours": "24/7",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_ajapnyak_branch",
+    "type": "branch",
+    "content": "Ajapnyak branch: 5/8 Beknazaryan St., Yerevan. Phones: +374-60-37-67-54, +374-10-35-95-53. Working hours: Mon-Fri 09:00-17:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "5/8 Beknazaryan St.",
+      "working_hours": "Mon-Fri 09:00-17:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_arabkir_branch",
+    "type": "branch",
+    "content": "Arabkir branch: 56 Komitas Ave., Yerevan. Phones: +374-60-37-67-64, +374-60-37-67-65. Working hours: Mon-Fri 09:00-17:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "56 Komitas Ave.",
+      "working_hours": "Mon-Fri 09:00-17:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_araratyan_branch",
+    "type": "branch",
+    "content": "Araratyan branch: 2/14 Tbilisyan St., Yerevan. Phone: +374-60-37-67-75. Working hours: Mon-Fri 09:00-17:00, Sat 10:00-14:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "2/14 Tbilisyan St.",
+      "working_hours": "Mon-Fri 09:00-17:00, Sat 10:00-14:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_hrazdan_branch",
+    "type": "branch",
+    "content": "Hrazdan branch: 84/2-84/3 Micro-district, Hrazdan. Phones: +374-60-37-67-37,  Working hours: Mon-Fri 09:00-17:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Hrazdan",
+      "region": "Kotayk",
+      "address": "84/2-84/3 Micro-district",
+      "working_hours": "Mon-Fri 09:00-17:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_ijevan_branch",
+    "type": "branch",
+    "content": "Ijevan branch: 5/3-2 Yerevanyan St., Ijevan. Phones: +374-60-37-67-08, Working hours: Mon-Fri 09:00-17:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Ijevan",
+      "region": "Tavush",
+      "address": "5/3-2 Yerevanyan St.",
+      "working_hours": "Mon-Fri 09:00-17:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_isahakyan_branch",
+    "type": "branch",
+    "content": "Isahakyan branch: 43 Nalbandyan St., Yerevan. Phone: +374-60-37-67-27. Working hours: Mon-Fri 09:00-17:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "43 Nalbandyan St.",
+      "working_hours": "Mon-Fri 09:00-17:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_jrvezh_branch",
+    "type": "branch",
+    "content": "Jrvezh branch: 4/2 A. Kochinyan St., Yerevan. Phones: +374-60-37-67-40, +374-60-37-67-41. Working hours: Mon-Fri 09:00-17:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "4/2 A. Kochinyan St.",
+      "working_hours": "Mon-Fri 09:00-17:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_kentron_branch",
+    "type": "branch",
+    "content": "Kentron branch: 19 Pushkin St., Yerevan. Phone: +374-60-37-39-00. Working hours: Mon-Fri 09:00-20:00, Sat 10:00-16:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "19 Pushkin St.",
+      "working_hours": "Mon-Fri 09:00-20:00, Sat 10:00-16:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_komitas_branch",
+    "type": "branch",
+    "content": "Komitas branch: 15/2 Komitas Ave., Yerevan. Phone: +374-60-37-67-45. Working hours: Mon-Fri 09:00-17:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "15/2 Komitas Ave.",
+      "working_hours": "Mon-Fri 09:00-17:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_malatya_branch",
+    "type": "branch",
+    "content": "Malatya branch: 39/1 Raffi St., Yerevan. Phone: +374-60-37-67-78. Working hours: Mon-Fri 09:00-17:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "39/1 Raffi St.",
+      "working_hours": "Mon-Fri 09:00-17:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_martuni_branch",
+    "type": "branch",
+    "content": "Martuni branch: 42/2 Myasnikyan St., Martuni. Phones: +374-60-37-67-25, Working hours: Mon-Fri 09:00-17:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Martuni",
+      "region": "Gegharkunik",
+      "address": "42/2 Myasnikyan St.",
+      "working_hours": "Mon-Fri 09:00-17:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_mashtots_branch",
+    "type": "branch",
+    "content": "Mashtots branch: 25 Mashtots Ave., Yerevan. Phones: +374-60-37-67-01, +374-10-53-64-21. Working hours: Mon-Fri 09:00-17:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "25 Mashtots Ave.",
+      "working_hours": "Mon-Fri 09:00-17:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_shirak_branch",
+    "type": "branch",
+    "content": "Shirak branch: 2/6 Aragatsi St., Gyumri. Phones: +374-60-37-67-42, Working hours: Mon-Fri 09:00-17:00, Sat 10:00-14:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Gyumri",
+      "region": "Shirak",
+      "address": "2/6 Aragatsi St.",
+      "working_hours": "Mon-Fri 09:00-17:00, Sat 10:00-14:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_sisian_branch",
+    "type": "branch",
+    "content": "Sisian branch: Yerevan highway 7th km, Sisian. Phone: +374-60-37-67-19. Working hours: Mon-Fri 09:00-17:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Sisian",
+      "region": "Syunik",
+      "address": "Yerevan highway 7th km",
+      "working_hours": "Mon-Fri 09:00-17:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_spitak_branch",
+    "type": "branch",
+    "content": "Spitak branch: 2 S. Avetisyan St., Spitak. Phones: +374-60-37-67-58, Working hours: Mon-Fri 09:00-17:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Spitak",
+      "region": "Lori",
+      "address": "2 S. Avetisyan St.",
+      "working_hours": "Mon-Fri 09:00-17:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_tsaghkadzor_branch",
+    "type": "branch",
+    "content": "Tsaghkadzor branch: 13/1 Grigor Magistros St., Tsaghkadzor. Phones: +374-60-37-67-30. Working hours: Mon-Fri 09:00-17:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Tsaghkadzor",
+      "region": "Kotayk",
+      "address": "13/1 Grigor Magistros St.",
+      "working_hours": "Mon-Fri 09:00-17:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_usanoghakan_branch",
+    "type": "branch",
+    "content": "Usanoghakan branch: 1 Alek Manukyan St., Yerevan. Phones: +374-60-37-67-04, +374-60-37-67-09. Working hours: Mon-Fri 09:00-17:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "1 Alek Manukyan St.",
+      "working_hours": "Mon-Fri 09:00-17:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_vanadzor_branch",
+    "type": "branch",
+    "content": "Vanadzor branch: 79/1 Tigran Mets Ave., Vanadzor. Phones: +374-60-37-67-44. Working hours: Mon-Fri 09:00-17:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Vanadzor",
+      "region": "Lori",
+      "address": "79/1 Tigran Mets Ave.",
+      "working_hours": "Mon-Fri 09:00-17:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_vanadzor_1_branch",
+    "type": "branch",
+    "content": "Vanadzor-1 branch: 44 Moskovyan St., Vanadzor. Phones: +374-60-37-67-57. Working hours: Mon-Fri 09:00-17:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Vanadzor",
+      "region": "Lori",
+      "address": "44 Moskovyan St.",
+      "working_hours": "Mon-Fri 09:00-17:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  },
+  {
+    "id": "araratbank_zeytun_branch",
+    "type": "branch",
+    "content": "Zeytun branch: 51/1 Paruyr Sevak St., Yerevan. Phones: +374-60-37-67-15, +374-60-37-67-16. Working hours: Mon-Fri 09:00-17:00.",
+    "metadata": {
+      "bank": "AraratBank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "51/1 Paruyr Sevak St.",
+      "working_hours": "Mon-Fri 09:00-17:00",
+      "source_url": "https://www.araratbank.am/en/branches"
+    }
+  }
+]

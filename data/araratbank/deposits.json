@@ -1,0 +1,321 @@
+[
+  {
+    "id": "araratbank_comfort_deposit_general_terms",
+    "content": "ARARAT-COMFORT ավանդը 3 տարվա ժամկետով ֆիքսված ավանդ է կայուն եկամուտ ստանալու համար:",
+    "metadata": {
+      "bank": "AraratBank",
+      "bank_id": "araratbank",
+      "type": "deposit",
+      "product": "comfort_deposit",
+      "topic": "general_terms",
+      "language": "hy",
+      "source_url": "https://www.araratbank.am/en/deposits/207/"
+    },
+    "structured": {}
+  },
+  {
+    "id": "araratbank_comfort_deposit_currencies",
+    "content": "Ավանդը հասանելի է AMD, USD և EUR արժույթներով:",
+    "metadata": {
+      "bank": "AraratBank",
+      "bank_id": "araratbank",
+      "type": "deposit",
+      "product": "comfort_deposit",
+      "topic": "currencies",
+      "language": "hy",
+      "source_url": "https://www.araratbank.am/en/deposits/207/"
+    },
+    "structured": {
+      "currencies": ["AMD", "USD", "EUR"]
+    }
+  },
+  {
+    "id": "araratbank_comfort_deposit_term",
+    "content": "Ավանդի ժամկետը 3 տարի է:",
+    "metadata": {
+      "bank": "AraratBank",
+      "bank_id": "araratbank",
+      "type": "deposit",
+      "product": "comfort_deposit",
+      "topic": "term",
+      "language": "hy",
+      "source_url": "https://www.araratbank.am/en/deposits/207/"
+    },
+    "structured": {
+      "term_years": 3
+    }
+  },
+  {
+    "id": "araratbank_comfort_deposit_amount_min",
+    "content": "Նվազագույն ավանդի գումարը՝ 500,000 AMD, 1,200 USD կամ 1,200 EUR:",
+    "metadata": {
+      "bank": "AraratBank",
+      "bank_id": "araratbank",
+      "type": "deposit",
+      "product": "comfort_deposit",
+      "topic": "amount_min",
+      "language": "hy",
+      "source_url": "https://www.araratbank.am/en/deposits/207/"
+    },
+    "structured": {
+      "amount_min": {
+        "AMD": 500000,
+        "USD": 1200,
+        "EUR": 1200
+      }
+    }
+  },
+  {
+    "id": "araratbank_comfort_deposit_amount_max",
+    "content": "Առավելագույն ավանդի գումարը՝ 100,000,000 AMD, 250,000 USD կամ 250,000 EUR:",
+    "metadata": {
+      "bank": "AraratBank",
+      "bank_id": "araratbank",
+      "type": "deposit",
+      "product": "comfort_deposit",
+      "topic": "amount_max",
+      "language": "hy",
+      "source_url": "https://www.araratbank.am/en/deposits/207/"
+    },
+    "structured": {
+      "amount_max": {
+        "AMD": 100000000,
+        "USD": 250000,
+        "EUR": 250000
+      }
+    }
+  },
+  {
+    "id": "araratbank_comfort_deposit_interest",
+    "content": "Տոկոսադրույքը կազմում է մինչև 8.5% AMD, 4.25% USD և 2.4% EUR:",
+    "metadata": {
+      "bank": "AraratBank",
+      "bank_id": "araratbank",
+      "type": "deposit",
+      "product": "comfort_deposit",
+      "topic": "interest",
+      "language": "hy",
+      "source_url": "https://www.araratbank.am/en/deposits/207/"
+    },
+    "structured": {
+      "interest_rate_max": {
+        "AMD": 8.5,
+        "USD": 4.25,
+        "EUR": 2.4
+      }
+    }
+  },
+  {
+    "id": "araratbank_comfort_deposit_interest_payment",
+    "content": "Տոկոսները վճարվում են ամսական և կարող են կուտակվել կամ փոխանցվել հաշվեհամարին կամ քարտին:",
+    "metadata": {
+      "bank": "AraratBank",
+      "bank_id": "araratbank",
+      "type": "deposit",
+      "product": "comfort_deposit",
+      "topic": "interest_payment",
+      "language": "hy",
+      "source_url": "https://www.araratbank.am/en/deposits/207/"
+    },
+    "structured": {}
+  },
+  {
+    "id": "araratbank_comfort_deposit_replenishment",
+    "content": "Ավանդը կարելի է համալրել ամբողջ ժամկետի ընթացքում, բացառությամբ վերջին 90 օրվա:",
+    "metadata": {
+      "bank": "AraratBank",
+      "bank_id": "araratbank",
+      "type": "deposit",
+      "product": "comfort_deposit",
+      "topic": "replenishment",
+      "language": "hy",
+      "source_url": "https://www.araratbank.am/en/deposits/207/"
+    },
+    "structured": {}
+  },
+  {
+    "id": "araratbank_term_deposit_general_terms",
+    "content": "AraratBank ժամկետային ավանդը ճկուն ժամկետներով ավանդ է:",
+    "metadata": {
+      "bank": "AraratBank",
+      "bank_id": "araratbank",
+      "type": "deposit",
+      "product": "term_deposit",
+      "topic": "general_terms",
+      "language": "hy",
+      "source_url": "https://www.araratbank.am/en/deposits/46/"
+    },
+    "structured": {}
+  },
+  {
+    "id": "araratbank_term_deposit_term",
+    "content": "Ժամկետը 45-ից մինչև 1095 օր է:",
+    "metadata": {
+      "bank": "AraratBank",
+      "bank_id": "araratbank",
+      "type": "deposit",
+      "product": "term_deposit",
+      "topic": "term",
+      "language": "hy",
+      "source_url": "https://www.araratbank.am/en/deposits/46/"
+    },
+    "structured": {
+      "term_days_min": 45,
+      "term_days_max": 1095
+    }
+  },
+  {
+    "id": "araratbank_term_deposit_currencies",
+    "content": "Հասանելի է AMD, USD, EUR և RUB արժույթներով:",
+    "metadata": {
+      "bank": "AraratBank",
+      "bank_id": "araratbank",
+      "type": "deposit",
+      "product": "term_deposit",
+      "topic": "currencies",
+      "language": "hy",
+      "source_url": "https://www.araratbank.am/en/deposits/46/"
+    },
+    "structured": {
+      "currencies": ["AMD", "USD", "EUR", "RUB"]
+    }
+  },
+  {
+    "id": "araratbank_term_deposit_amount_min",
+    "content": "Նվազագույն գումարը՝ 100,000 AMD, 250 USD, 250 EUR կամ 20,000 RUB:",
+    "metadata": {
+      "bank": "AraratBank",
+      "bank_id": "araratbank",
+      "type": "deposit",
+      "product": "term_deposit",
+      "topic": "amount_min",
+      "language": "hy",
+      "source_url": "https://www.araratbank.am/en/deposits/46/"
+    },
+    "structured": {
+      "amount_min": {
+        "AMD": 100000,
+        "USD": 250,
+        "EUR": 250,
+        "RUB": 20000
+      }
+    }
+  },
+  {
+    "id": "araratbank_term_deposit_interest",
+    "content": "Տոկոսադրույքը կախված է ժամկետից և կարող է հասնել մինչև 9.5% AMD:",
+    "metadata": {
+      "bank": "AraratBank",
+      "bank_id": "araratbank",
+      "type": "deposit",
+      "product": "term_deposit",
+      "topic": "interest",
+      "language": "hy",
+      "source_url": "https://www.araratbank.am/en/deposits/46/"
+    },
+    "structured": {
+      "interest_rate_max": {
+        "AMD": 9.5
+      }
+    }
+  },
+  {
+    "id": "araratbank_topup_deposit_general_terms",
+    "content": "Top-up ավանդը թույլ է տալիս համալրել ավանդը ամբողջ ժամկետի ընթացքում:",
+    "metadata": {
+      "bank": "AraratBank",
+      "bank_id": "araratbank",
+      "type": "deposit",
+      "product": "topup_deposit",
+      "topic": "general_terms",
+      "language": "hy",
+      "source_url": "https://www.araratbank.am/en/deposits/47/"
+    },
+    "structured": {}
+  },
+  {
+    "id": "araratbank_topup_deposit_term",
+    "content": "Ժամկետը 91-ից մինչև 459 օր է:",
+    "metadata": {
+      "bank": "AraratBank",
+      "bank_id": "araratbank",
+      "type": "deposit",
+      "product": "topup_deposit",
+      "topic": "term",
+      "language": "hy",
+      "source_url": "https://www.araratbank.am/en/deposits/47/"
+    },
+    "structured": {
+      "term_days_min": 91,
+      "term_days_max": 459
+    }
+  },
+  {
+    "id": "araratbank_topup_deposit_currencies",
+    "content": "Հասանելի է AMD և USD արժույթներով:",
+    "metadata": {
+      "bank": "AraratBank",
+      "bank_id": "araratbank",
+      "type": "deposit",
+      "product": "topup_deposit",
+      "topic": "currencies",
+      "language": "hy",
+      "source_url": "https://www.araratbank.am/en/deposits/47/"
+    },
+    "structured": {
+      "currencies": ["AMD", "USD"]
+    }
+  },
+  {
+    "id": "araratbank_topup_deposit_amount_min",
+    "content": "Նվազագույն գումարը՝ 10,000 AMD կամ 25 USD:",
+    "metadata": {
+      "bank": "AraratBank",
+      "bank_id": "araratbank",
+      "type": "deposit",
+      "product": "topup_deposit",
+      "topic": "amount_min",
+      "language": "hy",
+      "source_url": "https://www.araratbank.am/en/deposits/47/"
+    },
+    "structured": {
+      "amount_min": {
+        "AMD": 10000,
+        "USD": 25
+      }
+    }
+  },
+  {
+    "id": "araratbank_topup_deposit_amount_max",
+    "content": "Առավելագույն գումարը՝ 100,000,000 AMD կամ 250,000 USD:",
+    "metadata": {
+      "bank": "AraratBank",
+      "bank_id": "araratbank",
+      "type": "deposit",
+      "product": "topup_deposit",
+      "topic": "amount_max",
+      "language": "hy",
+      "source_url": "https://www.araratbank.am/en/deposits/47/"
+    },
+    "structured": {
+      "amount_max": {
+        "AMD": 100000000,
+        "USD": 250000
+      }
+    }
+  },
+  {
+    "id": "araratbank_global_guarantee",
+    "content": "Ավանդները երաշխավորվում են Ավանդների երաշխավորման հիմնադրամի կողմից՝ մինչև 10 միլիոն AMD դրամային և մինչև 5 միլիոն AMD համարժեք արտարժութային ավանդների համար:",
+    "metadata": {
+      "bank": "AraratBank",
+      "bank_id": "araratbank",
+      "type": "deposit",
+      "product": "all",
+      "topic": "guarantee",
+      "language": "hy",
+      "source_url": ""
+    },
+    "structured": {}
+  }
+]

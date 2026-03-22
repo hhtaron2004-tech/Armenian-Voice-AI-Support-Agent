@@ -1,0 +1,410 @@
+[
+  {
+    "id": "ameriabank_ameria_deposit_general_terms",
+    "content": "Ameria Deposit-ը տերմինային դեպոզիտ է անհատների համար, որը թույլ է տալիս ներդնել միջոցներ և ստանալ տոկոսագումար որոշակի ժամկետի ընթացքում։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "ameria_deposit",
+      "topic": "general_terms",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/ameria-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_ameria_deposit_currencies",
+    "content": "Ameria Deposit-ը մատչելի է՝ AMD, USD, EUR և RUB արժույթներով։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "ameria_deposit",
+      "topic": "currencies",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/ameria-deposit"
+    },
+    "structured": {
+      "currencies": ["AMD", "USD", "EUR", "RUB"]
+    }
+  },
+  {
+    "id": "ameriabank_ameria_deposit_term",
+    "content": "Դեպոզիտի ժամկետը հաճախորդի ընտրությամբ է և կարող է տատանվել կարճաժամկետից մինչև երկարաժամկետ՝ ըստ անհրաժեշտության։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "ameria_deposit",
+      "topic": "term",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/ameria-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_ameria_deposit_interest",
+    "content": "Դեպոզիտի տոկոսադրույքները կախված են արժույթից, ժամկետից և պայմաններից։ Տոկոսը կարող է վճարվել պարբերաբար կամ ժամկետի ավարտին՝ ընտրված տարբերակից կախված։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "ameria_deposit",
+      "topic": "interest",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/ameria-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_ameria_deposit_replenishment",
+    "content": "Դեպոզիտը հնարավոր է համալրել ըստ ընտրված տեսակին և պայմաններին համապատասխան։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "ameria_deposit",
+      "topic": "replenishment",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/ameria-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_ameria_deposit_early_withdrawal",
+    "content": "Առաջնային կամ մասական կանխիկացումը կարող է սահմանափակվել, և տոկոսը կարող է վերագնահատվել ըստ բանկի կանոնակարգերի։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "ameria_deposit",
+      "topic": "early_withdrawal",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/ameria-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_ameria_deposit_opening_methods",
+    "content": "Դեպոզիտը կարելի է բացել բանկի մասնաճյուղերում կամ առցանց և շարժական բանկինգի հարթակներով։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "ameria_deposit",
+      "topic": "opening_methods",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/ameria-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_cumulative_deposit_general_terms",
+    "content": "Cumulative Deposit-ը թույլ է տալիս հաճախորդներին աստիճանաբար հավաքել միջոցներ՝ պարբերաբար լրացումներ կատարելով ժամանակի ընթացքում։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "cumulative_deposit",
+      "topic": "general_terms",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/cumulative-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_cumulative_deposit_purpose",
+    "content": "Դեպոզիտը նախատեսված է երկարաժամկետ խնայողական նպատակների համար, ինչպիսիք են կրթությունը, մեծ գնումները կամ ֆինանսական ապահովությունը։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "cumulative_deposit",
+      "topic": "purpose",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/cumulative-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_cumulative_deposit_replenishment",
+    "content": "Դեպոզիտը թույլ է տալիս պարբերաբար լրացում, ինչը հաճախորդներին հնարավորություն է տալիս ավելացնել միջոցներ ողջ ժամկետի ընթացքում։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "cumulative_deposit",
+      "topic": "replenishment",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/cumulative-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_cumulative_deposit_term",
+    "content": "Դեպոզիտը բացվում է հաստատված ժամկետի համար, որի ընթացքում կարելի է կատարել լրացումներ սահմանված պայմանների համաձայն։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "cumulative_deposit",
+      "topic": "term",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/cumulative-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_cumulative_deposit_interest",
+    "content": "Տվյալ դեպոզիտի վրա տոկոսը հաշվարկվում է հավաքված մնացորդի և գործող տոկոսադրույքների հիման վրա։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "cumulative_deposit",
+      "topic": "interest",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/cumulative-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_cumulative_deposit_minimum_amount",
+    "content": "Մինիմալ ներդրման գումարները սահմանվում են բանկի կողմից։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "cumulative_deposit",
+      "topic": "minimum_amount",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/cumulative-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_cumulative_deposit_conditions",
+    "content": "Հատուկ պայմաններ են կիրառվում ներդրման հաճախականության և միջոցներ ավելացնելու վերջնաժամկետների վերաբերյալ ամբողջ ժամկետի ընթացքում։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "cumulative_deposit",
+      "topic": "conditions",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/cumulative-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_cumulative_deposit_early_termination",
+    "content": "Կարճաժամկետ ավարտի դեպքում տոկոսը կարող է վերահաշվարկվել ավելի ցածր մակարդակով՝ ըստ բանկի քաղաքականության։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "cumulative_deposit",
+      "topic": "early_termination",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/cumulative-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_cumulative_deposit_opening_methods",
+    "content": "Դեպոզիտը կարելի է բացել բանկի մասնաճյուղերում կամ առցանց և շարժական բանկային ծառայությունների միջոցով։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "cumulative_deposit",
+      "topic": "opening_methods",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/cumulative-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_kids_deposit_general_terms",
+    "content": "Kids Deposit-ը երկարաժամկետ խնայողական արտադրանք է, որն նախատեսված է երեխայի ապագայի համար միջոցներ կուտակելու։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "kids_deposit",
+      "topic": "general_terms",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/kids-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_kids_deposit_beneficiary",
+    "content": "Դեպոզիտը բացվում է երեխայի համար, իսկ հաշիվը ղեկավարում է ծնողը կամ օրինական ներկայացուցիչը մինչև երեխայի չափահաս դառնալը։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "kids_deposit",
+      "topic": "beneficiary",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/kids-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_kids_deposit_term",
+    "content": "Դեպոզիտը երկարաժամկետ է և կարող է տևել մի քանի տարի, հաճախ համընկնելով երեխայի հասակին՝ ապագա պլանավորման համար։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "kids_deposit",
+      "topic": "term",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/kids-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_kids_deposit_interest",
+    "content": "Տոկոսները կուտակվում են դեպոզիտի ընթացքում՝ օգնելով խնայողություններին աճել։ Վերջնական գումարը կախված է դեպոզիտի ժամկետից և կիրառելի տոկոսադրույքներից։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "kids_deposit",
+      "topic": "interest",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/kids-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_kids_deposit_early_withdrawal",
+    "content": "Վաղաժամ գումարի հետ վերցնելը, հատկապես սկզբնական տարիներին, կարող է հանգեցնել տոկոսադրույքի վերադասավորման՝ բանկի քաղաքականության համաձայն՝ ավելի ցածր տեմպով։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "kids_deposit",
+      "topic": "early_withdrawal",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/kids-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_kids_deposit_long_term_conditions",
+    "content": "Երկարաժամկետ դեպոզիտների համար կիրառվում են հատուկ պայմաններ տոկոսների վերադասավորման վերաբերյալ, եթե գումարները հետ վերցվեն նախքան ժամկետի ավարտը, և տոկոսադրույքները նվազեցված են՝ կախված վերցնելու ժամանակից։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "kids_deposit",
+      "topic": "conditions",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/kids-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_kids_deposit_purpose",
+    "content": "Այս ավանդը նախատեսված է երեխայի ապագա ֆինանսական կարիքների համար՝ կրթություն, բնակարան կամ այլ երկարաժամկետ նպատակներ ապահովելու համար։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "kids_deposit",
+      "topic": "purpose",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/kids-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_kids_deposit_management",
+    "content": "Ավանդը կառավարվում է ծնողի կամ օրինական պահապանի կողմից պայմանագրի ամբողջ ընթացքում, իսկ սեփականությունը կամ հասանելիությունը կարող է փոխանցվել երեխային նրա մեծանալու պահից հետո։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "kids_deposit",
+      "topic": "management",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/saving/deposits/kids-deposit"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_savings_account_general_terms",
+    "content": "Ameriabank Խնայողական Հաշիվը անձնական հաշիվ է, որտեղ հաճախորդները կարող են գումար պահպանել, ստանալ տոկոսներ և կառավարել իրենց միջոցները ըստ անհրաժեշտության։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "savings_account",
+      "topic": "general_terms",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/accounts/accounts/saving-account"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_savings_account_flexibility",
+    "content": "Խնայողական հաշվի միջոցները կարող են ավելացվել կամ մասամբ հանվել ցանկացած պահի հաշվի գործողության ընթացքում, ինչը հնարավորություն է տալիս ճկուն կառավարել գումարը։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "savings_account",
+      "topic": "flexibility",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/accounts/accounts/saving-account"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_savings_account_interest",
+    "content": "Սնեյվինգ հաշվի տոկոսը հաշվարկվում է հաշվի մնացորդի հիման վրա և կարող է վճարվել պարբերաբար կամ ժամկետի ավարտին՝ բանկի կանոնների համաձայն։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "savings_account",
+      "topic": "interest",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/accounts/accounts/saving-account"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_savings_account_management",
+    "content": "Հաճախորդները կարող են ազատորեն օգտագործել իրենց հաշվի միջոցները՝ գումար ավելացնել կամ հետ վերցնել ըստ անհրաժեշտության, իսկ մնացորդը շարունակում է տոկոս բերել։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "savings_account",
+      "topic": "management",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/accounts/accounts/saving-account"
+    },
+    "structured": {}
+  },
+  {
+    "id": "ameriabank_savings_account_conditions",
+    "content": "Սնեյվինգ հաշիվը ենթակա է հատուկ պայմանների, որոնք վերաբերում են հաշվի սպասարկմանը, տոկոսների հաշվարկին և այլ գործառնական կանոններին, որոնք սահմանված են բանկի կողմից։",
+    "metadata": {
+      "bank": "Ameriabank",
+      "bank_id": "ameriabank",
+      "type": "deposit",
+      "product": "savings_account",
+      "topic": "conditions",
+      "language": "hy",
+      "source_url": "https://ameriabank.am/en/personal/accounts/accounts/saving-account"
+    },
+    "structured": {}
+  }
+]

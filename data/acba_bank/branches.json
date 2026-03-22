@@ -1,0 +1,785 @@
+[
+  {
+    "id": "acba_homplex_mall_branch",
+    "type": "branch",
+    "content": "Homplex Mall Branch: Nairi village, Proshyan, Chaush highway 1/48 Trade Hall. Working hours: Monday-Sunday 09:00-00:00. ",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Nairi",
+      "region": "Kotayk",
+      "address": "Chaush highway 1/48 Trade Hall, Proshyan",
+      "working_hours": "Monday-Sunday 09:00-00:00",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_sebastia_branch",
+    "type": "branch",
+    "content": "Sebastia Branch: 80 Sebastia St., Building 50, Yerevan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "80 Sebastia St., Building 50",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_avan_branch",
+    "type": "branch",
+    "content": "Avan Branch: 210/2 M. Khudiakov St., Yerevan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "210/2 M. Khudiakov St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_ajapnyak_branch",
+    "type": "branch",
+    "content": "Ajapnyak Branch: 1/1 Yu. Fuchik St., Area 300, Yerevan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "1/1 Yu. Fuchik St., Area 300",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_garni_branch",
+    "type": "branch",
+    "content": "Garni Branch: 28, 28/1 Alekyan St., Garni. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Garni",
+      "region": "Kotayk",
+      "address": "28, 28/1 Alekyan St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_chambarak_branch",
+    "type": "branch",
+    "content": "Chambarak Branch: 127/2 G. Nzhdeh St., Chambarak. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Chambarak",
+      "region": "Gegharkunik",
+      "address": "127/2 G. Nzhdeh St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_meghri_branch",
+    "type": "branch",
+    "content": "Meghri Branch: 1 Z. Andranik St., Cinema Building, Meghri. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Meghri",
+      "region": "Syunik",
+      "address": "1 Z. Andranik St., Cinema Building",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_arabkir_branch",
+    "type": "branch",
+    "content": "Arabkir Branch: 64a Sundukyan St., Building 2/1, Non-residential area, Yerevan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "64a Sundukyan St., Building 2/1",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_armenia_branch",
+    "type": "branch",
+    "content": "Armenia Branch: 10 V. Sargsyan St., Buildings 123, 124, Yerevan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "10 V. Sargsyan St., Buildings 123, 124",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_davtashen_branch",
+    "type": "branch",
+    "content": "Davtashen Branch: 42/2 Davtashen I, Yerevan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "42/2 Davtashen I",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_yeritasardakan_branch",
+    "type": "branch",
+    "content": "Yeritasardakan Branch: 36 Abovyan St., Building 49, Yerevan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "36 Abovyan St., Building 49",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_yerevan_mall_branch",
+    "type": "branch",
+    "content": "Yerevan Mall Branch: 34/3 Arshakunyats St., Area 93, Yerevan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "34/3 Arshakunyats St., Area 93",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+
+  {
+    "id": "acba_zeytun_branch",
+    "type": "branch",
+    "content": "Zeytun Branch: 13/5 D. Anhaghty St., Yerevan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "13/5 D. Anhaghty St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_erebuni_branch",
+    "type": "branch",
+    "content": "Erebuni Branch: 23 Erebuni St., Building 74, Yerevan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "23 Erebuni St., Building 74",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_kentron_branch",
+    "type": "branch",
+    "content": "Kentron Branch: 82-84 Arami St., Area 87, Yerevan. Working hours: Monday-Friday 09:30-17:30. ",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "82-84 Arami St., Area 87",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_kesaria_branch",
+    "type": "branch",
+    "content": "Kesaria Branch: 93/3, 93/5 Sherami St., Malatia-Sebastia, Yerevan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "93/3, 93/5 Sherami St., Malatia-Sebastia",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_komitas_branch",
+    "type": "branch",
+    "content": "Komitas Branch: 58 Komitas Ave., Area 57, Yerevan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "58 Komitas Ave., Area 57",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_malatia_branch",
+    "type": "branch",
+    "content": "Malatia Branch: 55 Raffi St., Building 1/1, Malatia-Sebastia, Yerevan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "55 Raffi St., Building 1/1, Malatia-Sebastia",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_opera_branch",
+    "type": "branch",
+    "content": "Opera Branch: 42/17 Mashtots Ave., Yerevan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "42/17 Mashtots Ave.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_armavir_branch",
+    "type": "branch",
+    "content": "Armavir Branch: 16 Yerevanyan St., Armavir. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Armavir",
+      "region": "Armavir",
+      "address": "16 Yerevanyan St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_bagramyan_branch",
+    "type": "branch",
+    "content": "Baghramyan Branch: Miasnikyan community, 10/1 Yerevanyan St., Armavir region. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Armavir",
+      "region": "Armavir",
+      "address": "Miasnikyan community, 10/1 Yerevanyan St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_echmiadzin_branch",
+    "type": "branch",
+    "content": "Echmiadzin Branch: 30 Mashtots Ave., Echmiadzin. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Echmiadzin",
+      "region": "Aragatsotn",
+      "address": "30 Mashtots Ave.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_metsamor_branch",
+    "type": "branch",
+    "content": "Metsamor Branch: 1st district, 2b, 1-6 department store, Metsamor. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Metsamor",
+      "region": "Armavir",
+      "address": "1st district, 2b, 1-6 department store",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_ararat_branch",
+    "type": "branch",
+    "content": "Ararat Branch: 31 Shahumyan St., Artashat. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Artashat",
+      "region": "Ararat",
+      "address": "31 Shahumyan St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_araks_branch",
+    "type": "branch",
+    "content": "Araks Branch: 45/1 Shahumyan St., Ararat. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Ararat",
+      "region": "Ararat",
+      "address": "45/1 Shahumyan St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_masis_branch",
+    "type": "branch",
+    "content": "Masis Branch: Central Square 3, Masis. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Masis",
+      "region": "Ararat",
+      "address": "Central Square 3",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_vedi_branch",
+    "type": "branch",
+    "content": "Vedi Branch: 42/2 Araratyan St., Vedi. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Vedi",
+      "region": "Ararat",
+      "address": "42/2 Araratyan St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_aragats_branch",
+    "type": "branch",
+    "content": "Aragats Branch: 2/1 Hoktemberyan St., Tsaghkahovit. Working hours: Monday-Friday 09:30-17:30. ",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Tsaghkahovit",
+      "region": "Aragatsotn",
+      "address": "2/1 Hoktemberyan St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_aragatsotn_branch",
+    "type": "branch",
+    "content": "Aragatsotn Branch: 1/1 N. Ashtaraketsi Hraparak, Ashtarak. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Ashtarak",
+      "region": "Aragatsotn",
+      "address": "1/1 N. Ashtaraketsi Hraparak",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_aparan_branch",
+    "type": "branch",
+    "content": "Aparan Branch: 37 Baghramyan St., Aparan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Aparan",
+      "region": "Aragatsotn",
+      "address": "37 Baghramyan St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_ashtarak_branch",
+    "type": "branch",
+    "content": "Ashtarak Branch: 1 Yerevanyan St., Ashtarak. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Ashtarak",
+      "region": "Aragatsotn",
+      "address": "1 Yerevanyan St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_talin_branch",
+    "type": "branch",
+    "content": "Talin Branch: 4 Komitas St., Talin. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Talin",
+      "region": "Aragatsotn",
+      "address": "4 Komitas St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_ani_branch",
+    "type": "branch",
+    "content": "Ani Branch: 5/2 7th Street, Ani District, Gyumri. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Gyumri",
+      "region": "Shirak",
+      "address": "5/2 7th Street, Ani District",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_ashotsk_branch",
+    "type": "branch",
+    "content": "Ashotsk Branch: 9 1st St., Ashotsk. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Ashotsk",
+      "region": "Shirak",
+      "address": "9 1st St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_artik_branch",
+    "type": "branch",
+    "content": "Artik Branch: 28/1 Ankyakutyun St., Artik. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Artik",
+      "region": "Shirak",
+      "address": "28/1 Ankyakutyun St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_gyumri_branch",
+    "type": "branch",
+    "content": "Gyumri Branch: 18a Shirakatsu St., Gyumri. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Gyumri",
+      "region": "Shirak",
+      "address": "18a Shirakatsu St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_maralik_branch",
+    "type": "branch",
+    "content": "Maralik Branch: 13 Azatutyan Hraparak, Maralik. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Maralik",
+      "region": "Shirak",
+      "address": "13 Azatutyan Hraparak",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_shirak_branch",
+    "type": "branch",
+    "content": "Shirak Branch: 256 Abovyan St., Gyumri. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Gyumri",
+      "region": "Shirak",
+      "address": "256 Abovyan St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_gegharqunik_branch",
+    "type": "branch",
+    "content": "Gegharqunik Branch: Boshnagyan St., Gavar. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Gavar",
+      "region": "Gegharqunik",
+      "address": "Boshnagyan St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_martuni_branch",
+    "type": "branch",
+    "content": "Martuni Branch: 52 Yerevanyan St., Martuni. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Martuni",
+      "region": "Gegharqunik",
+      "address": "52 Yerevanyan St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_sevan_branch",
+    "type": "branch",
+    "content": "Sevan Branch: 153/33 Nairyan St., Sevan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Sevan",
+      "region": "Gegharqunik",
+      "address": "153/33 Nairyan St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_vardenis_branch",
+    "type": "branch",
+    "content": "Vardenis Branch: 5/1 Romani St., Vardenis. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Vardenis",
+      "region": "Gegharqunik",
+      "address": "5/1 Romani St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_alaverdi_branch",
+    "type": "branch",
+    "content": "Alaverdi Branch: 59 Tumanyan St., Alaverdi. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Alaverdi",
+      "region": "Lori",
+      "address": "59 Tumanyan St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_lori_branch",
+    "type": "branch",
+    "content": "Lori Branch: 22a Tigran Mets Ave., Vanadzor. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Vanadzor",
+      "region": "Lori",
+      "address": "22a Tigran Mets Ave.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_spitak_branch",
+    "type": "branch",
+    "content": "Spitak Branch: 3 S. Avetisyan St., Spitak. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Spitak",
+      "region": "Lori",
+      "address": "3 S. Avetisyan St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_tashir_branch",
+    "type": "branch",
+    "content": "Tashir Branch: Kirovi St., district 5, 192, Tashir. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Tashir",
+      "region": "Lori",
+      "address": "Kirovi St., district 5, 192",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_stepanavan_branch",
+    "type": "branch",
+    "content": "Stepanavan Branch: 9 G. Nzhdeh St., Stepanavan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Stepanavan",
+      "region": "Lori",
+      "address": "9 G. Nzhdeh St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_berd_branch",
+    "type": "branch",
+    "content": "Berd Branch: 1/3 Levon Beki St., Berd. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Berd",
+      "region": "Tavush",
+      "address": "1/3 Levon Beki St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+
+  {
+    "id": "acba_dilijan_branch",
+    "type": "branch",
+    "content": "Dilijan Branch: 37/2 Myasnikyan St., Dilijan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Dilijan",
+      "region": "Tavush",
+      "address": "37/2 Myasnikyan St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_noyemberyan_branch",
+    "type": "branch",
+    "content": "Noyemberyan Branch: 2 Barekamutyun St., Noyemberyan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Noyemberyan",
+      "region": "Tavush",
+      "address": "2 Barekamutyun St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_tavush_branch",
+    "type": "branch",
+    "content": "Tavush Branch: 6/4 Valansi St., Ijevan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Ijevan",
+      "region": "Tavush",
+      "address": "6/4 Valansi St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_eghvard_branch",
+    "type": "branch",
+    "content": "Eghvard Branch: 48 Charents St., Eghvard. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Eghvard",
+      "region": "Kotayk",
+      "address": "48 Charents St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_hrazdan_branch",
+    "type": "branch",
+    "content": "Hrazdan Branch: 31/101 Kentron district, Hrazdan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Hrazdan",
+      "region": "Kotayk",
+      "address": "31/101 Kentron district",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_kotayk_branch",
+    "type": "branch",
+    "content": "Kotayk Branch: 4/2 Hatatsi St., Abovyan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Abovyan",
+      "region": "Kotayk",
+      "address": "4/2 Hatatsi St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+
+  {
+    "id": "acba_goris_branch",
+    "type": "branch",
+    "content": "Goris Branch: 2/5 Ankyunagorts St., Goris. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Goris",
+      "region": "Syunik",
+      "address": "2/5 Ankyunagorts St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_charentsavan_branch",
+    "type": "branch",
+    "content": "Charentsavan Branch: 2/1-2/3 Khanjyan St., Charentsavan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Charentsavan",
+      "region": "Syunik",
+      "address": "2/1-2/3 Khanjyan St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_syunik_branch",
+    "type": "branch",
+    "content": "Syunik Branch: 4 Aram Manukyan St., Kapan. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Kapan",
+      "region": "Syunik",
+      "address": "4 Aram Manukyan St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_sisian_branch",
+    "type": "branch",
+    "content": "Sisian Branch: 39d Sisakan St., Sisian. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Sisian",
+      "region": "Syunik",
+      "address": "39d Sisakan St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_vayots_dzor_branch",
+    "type": "branch",
+    "content": "Vayots Dzor Branch: 2/5 P. Sevak St., Yeghvardzor. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Yeghvardzor",
+      "region": "Vayots Dzor",
+      "address": "2/5 P. Sevak St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  },
+  {
+    "id": "acba_vayk_branch",
+    "type": "branch",
+    "content": "Vayk Branch: 98/3-4 Shahumyan St., Vayk. Working hours: Monday-Friday 09:30-17:30.",
+    "metadata": {
+      "bank": "ACBA",
+      "city": "Vayk",
+      "region": "Vayots Dzor",
+      "address": "98/3-4 Shahumyan St.",
+      "working_hours": "Monday-Friday 09:30-17:30",
+      "source_url": "https://www.acba.am/"
+    }
+  }
+]

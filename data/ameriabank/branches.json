@@ -1,0 +1,392 @@
+[
+ {
+    "id": "ameriabank_premium_hall",
+    "type": "branch",
+    "content": "Premium Hall - Head Office: 2 Str. V. Sargsyan, Yerevan,  Phone: +374 10 56 1111. Working hours: Monday-Friday 09:30-17:00.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "2 Str. V. Sargsyan",
+      "working_hours": "Monday-Friday 09:30-17:00",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_kamar_branch",
+    "type": "branch",
+    "content": "Kamar Branch: 1st floor of ″Kamar″ Business Center, 2 Vazgen Sargsyan, Yerevan, Phone: +374 10 56 1111. Working hours: Monday-Friday 09:30-17:00.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "1st floor of ″Kamar″ Business Center, 2 Vazgen Sargsyan",
+      "working_hours": "Monday-Friday 09:30-17:00",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_mashtots_branch",
+    "type": "branch",
+    "content": "Mashtots Branch: 20/4 Ave. Mashtots, N1 Underground, Yerevan, Phone: +374 10 56 1111. Working hours: Monday-Sunday 10:30-21:15.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "20/4 Ave. Mashtots, N1 Underground",
+      "working_hours": "Monday-Sunday 10:30-21:15",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_moskovyan_branch",
+    "type": "branch",
+    "content": "Moskovyan Branch: 48 Mashtots Ave., 2/1, Yerevan, Phone: +374 10 56 1111. Working hours: Monday-Friday 09:30-17:00.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "48 Mashtots Ave., 2/1",
+      "working_hours": "Monday-Friday 09:30-17:00",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_yeritasardakan_branch",
+    "type": "branch",
+    "content": "Yeritasardakan Branch: 22/8 A. Isahakyan Str., Yerevan, Phone: +374 10 56 1111. Working hours: Monday-Sunday 10:30-21:15.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "22/8 A. Isahakyan Str.",
+      "working_hours": "Monday-Sunday 10:30-21:15",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_sayat_nova_branch",
+    "type": "branch",
+    "content": "Sayat-Nova Branch: 8 Sayat-Nova Ave., off. 47, Yerevan, Phone: +374 10 56 1111. Working hours: Monday-Friday 09:30-17:00.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "8 Sayat-Nova Ave., off. 47",
+      "working_hours": "Monday-Friday 09:30-17:00",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_dalma_branch",
+    "type": "branch",
+    "content": "Dalma Branch: 3 Highway Tsitsernakaberd, Yerevan, Phone: +374 10 56 1111. Working hours: Monday-Sunday 10:30-21:15.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "3 Highway Tsitsernakaberd (Dalma Garden Mall Trade Center)",
+      "working_hours": "Monday-Sunday 10:30-21:15",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_komitas_branch",
+    "type": "branch",
+    "content": "Komitas Branch: 12 Komitas Ave., n. 1021 Yerevan, Phone: +374 10 56 1111. Working hours: Monday-Friday 09:30-17:00.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "12 Komitas Ave., n. 1021",
+      "working_hours": "Monday-Friday 09:30-17:00",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_kochar_branch",
+    "type": "branch",
+    "content": "Kochar Branch: 8 Papazyan Str., Rio Mall Trade Center, Yerevan, Phone: +374 10 56 1111. Working hours: Monday-Sunday 10:30-21:15.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "8 Papazyan Str., Rio Mall Trade Center",
+      "working_hours": "Monday-Sunday 10:30-21:15",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_zeytun_branch",
+    "type": "branch",
+    "content": "Zeytun Branch: H.Nersisyan St. 1 building, 127, Yerevan, Phone: +374 10 56 1111. Working hours: Monday-Friday 09:30-17:00.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "H.Nersisyan St. 1 building, 127",
+      "working_hours": "Monday-Friday 09:30-17:00",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_erebuni_branch",
+    "type": "branch",
+    "content": "Erebuni Branch: 17/1 Str. Erebuni, Yerevan, Phone: +374 10 56 1111. Working hours: Monday-Sunday 10:30-21:15.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "17/1 Str. Erebuni",
+      "working_hours": "Monday-Sunday 10:30-21:15",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_arshakunyats_branch",
+    "type": "branch",
+    "content": "Arshakunyats Branch: 34/3 Arshakunyats Ave., 2nd floor, Yerevan Mall Trade Center, Yerevan, Phone: +374 10 56 1111. Working hours: Monday-Sunday 10:30-21:15.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "34/3 Arshakunyats Ave., 2nd floor, Yerevan Mall Trade Center",
+      "working_hours": "Monday-Sunday 10:30-21:15",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_shengavit_branch",
+    "type": "branch",
+    "content": "Shengavit Branch: 18 Bagratunyats Str., Area 112, Yerevan, Phone: +374 10 56 1111. Working hours: Monday-Friday 09:30-17:00.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "18 Bagratunyats Str., Area 112",
+      "working_hours": "Monday-Friday 09:30-17:00",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_nor_nork_branch",
+    "type": "branch",
+    "content": "Nor Nork Branch: 16 Gai Ave., Megamall, Yerevan, Phone: +374 10 56 1111. Working hours: Monday-Sunday 10:30-21:15.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "16 Gai Ave., Megamall",
+      "working_hours": "Monday-Sunday 10:30-21:15",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_malatia_branch",
+    "type": "branch",
+    "content": "Malatia Branch: 40/4 Ave. Z. Andranik str., Yerevan, Phone: +374 10 56 1111. Working hours: Monday-Friday 09:30-17:00.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "40/4 Ave. Z. Andranik str.",
+      "working_hours": "Monday-Friday 09:30-17:00",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_avan_branch",
+    "type": "branch",
+    "content": "Avan Branch: 175/1 Khudiakov St., Yerevan, Phone: +374 10 56 1111. Working hours: Monday-Friday 09:30-17:00.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "175/1 Khudiakov St.",
+      "working_hours": "Monday-Friday 09:30-17:00",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_davtashen_branch",
+    "type": "branch",
+    "content": "Davtashen Branch: Davtashen 3-rd district, Tigran Petrosyan 25/5, Yerevan, RA, ″Yerevan City″ Trade Center. Phone: +374 10 56 1111. Working hours: Monday-Sunday 10:30-21:15.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "Davtashen 3-rd district, Tigran Petrosyan 25/5, ″Yerevan City″ Trade Center",
+      "working_hours": "Monday-Sunday 10:30-21:15",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_ajapnyak_branch",
+    "type": "branch",
+    "content": "Ajapnyak Branch: Mazmanyan 1 Garage Masters Mall, Yerevan. Phone: +374 10 56 1111. Working hours: Monday-Sunday 10:30-21:15.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Yerevan",
+      "region": "Yerevan",
+      "address": "Mazmanyan 1 Garage Masters Mall",
+      "working_hours": "Monday-Sunday 10:30-21:15",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_artashat_branch",
+    "type": "branch",
+    "content": "Artashat Branch: Ararat region, community Artashat, city of Artashat, August 23 st. Phone: +374 10 56 1111. Working hours: Monday-Friday 09:30-17:00.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Artashat",
+      "region": "Ararat",
+      "address": "August 23 st",
+      "working_hours": "Monday-Friday 09:30-17:00",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_ejmiatsin_branch",
+    "type": "branch",
+    "content": "Ejmiatsin Branch: 69/51 Mashtots Str., community Vagharshapat, Phone: +374 10 56 1111. Working hours: Monday-Friday 09:30-17:00.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Vagharshapat",
+      "region": "Armavir",
+      "address": "69/51 Mashtots Str.",
+      "working_hours": "Monday-Friday 09:30-17:00",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_abovyan_branch",
+    "type": "branch",
+    "content": "Abovyan Branch: 7/2 Sahmanadrutyan Sq., Abovyan, 2205, Phone: +374 10 56 1111. Working hours: Monday-Friday 09:30-17:00.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Abovyan",
+      "region": "Kotayk",
+      "address": "7/2 Sahmanadrutyan Sq.",
+      "working_hours": "Monday-Friday 09:30-17:00",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_hrazdan_branch",
+    "type": "branch",
+    "content": "Hrazdan Branch: micr. Andranik 139, 139/3, 139/4. Phone: +374 10 56 1111. Working hours: Monday-Friday 09:30-17:00.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Hrazdan",
+      "region": "Kotayk",
+      "address": "micr. Andranik 139, 139/3, 139/4",
+      "working_hours": "Monday-Friday 09:30-17:00",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_homplex_branch",
+    "type": "branch",
+    "content": "Homplex Branch: Kotayk region, Nairi village, Proshyan village, Chaush highway 1/48. Phone: +374 10 56 1111. Working hours: Monday-Sunday 10:30-21:15.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Nairi",
+      "region": "Kotayk",
+      "address": "Chaush highway 1/48",
+      "working_hours": "Monday-Sunday 10:30-21:15",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_vanadzor_branch",
+    "type": "branch",
+    "content": "Vanadzor Branch: 65 Tigran Mets Str., Vanadzor, Phone: +374 10 56 1111. Working hours: Monday-Friday 09:30-17:00.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Vanadzor",
+      "region": "Lori",
+      "address": "65 Tigran Mets Str.",
+      "working_hours": "Monday-Friday 09:30-17:00",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_kumayri_branch",
+    "type": "branch",
+    "content": "Kumayri Branch: Abovyan 248/7, Gyumri, Phone: +374 10 56 1111. Working hours: Monday-Friday 09:30-17:00.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Gyumri",
+      "region": "Shirak",
+      "address": "Abovyan 248/7",
+      "working_hours": "Monday-Friday 09:30-17:00",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_kajaran_branch",
+    "type": "branch",
+    "content": "Kajaran Branch: 16/31 Lernagorceri Str., Kajaran, Phone: +374 10 56 1111. Working hours: Monday-Friday 09:30-17:00.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Kajaran",
+      "region": "Syunik",
+      "address": "16/31 Lernagorceri Str.",
+      "working_hours": "Monday-Friday 09:30-17:00",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_kapan_branch",
+    "type": "branch",
+    "content": "Kapan Branch: 1 Shahumyan Str., Kapan, Phone: +374 10 56 1111. Working hours: Monday-Friday 09:30-17:00.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Kapan",
+      "region": "Syunik",
+      "address": "1 Shahumyan Str.",
+      "working_hours": "Monday-Friday 09:30-17:00",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_agarak_branch",
+    "type": "branch",
+    "content": "Agarak Branch:  Syunik region, Agarak city, G. Nzhdeh street 7 administrative building. Phone: +374 10 56 1111. Working hours: Monday-Friday 09:30-17:00.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Agarak",
+      "region": "Syunik",
+      "address": "G. Nzhdeh street 7 administrative building",
+      "working_hours": "Monday-Friday 09:30-17:00",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_dilijan_branch",
+    "type": "branch",
+    "content": "Dilijan Branch: 66 Miasnikyan Str., Dilijan, Phone: +374 10 56 1111. Working hours: Monday-Friday 09:30-17:00.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Dilijan",
+      "region": "Tavush",
+      "address": "66 Miasnikyan Str.",
+      "working_hours": "Monday-Friday 09:30-17:00",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  },
+  {
+    "id": "ameriabank_jermuk_branch",
+    "type": "branch",
+    "content": "Jermuk Branch: 14/3 Shahumyan Str., Jermuk, Phone: +374 10 56 1111. Working hours: Monday-Friday 09:30-17:00.",
+    "metadata": {
+      "bank": "Ameriabank",
+      "city": "Jermuk",
+      "region": "Vayots Dzor",
+      "address": "14/3 Shahumyan Str.",
+      "working_hours": "Monday-Friday 09:30-17:00",
+      "source_url": "https://ameriabank.am/en/service-network"
+    }
+  }
+]

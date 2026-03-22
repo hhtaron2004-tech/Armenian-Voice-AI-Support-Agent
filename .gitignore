@@ -1,0 +1,7 @@
+.env
+.venv/
+embeddings/chroma_db/
+__pycache__/
+*.pyc
+.idea/
+.DS_Store

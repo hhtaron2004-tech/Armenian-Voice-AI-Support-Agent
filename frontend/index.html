@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Հայկական Բանկեր — AI Օգնական</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/livekit-client/dist/livekit-client.umd.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0a0c10;
+      --surface: #12151c;
+      --surface2: #1a1f2b;
+      --border: #ffffff0f;
+      --text: #e8eaf0;
+      --muted: #6b7280;
+      --ararat: #c0392b;
+      --acba: #27ae60;
+      --ameria: #2980b9;
+      --gold: #f0b429;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      background-image:
+        radial-gradient(ellipse at 20% 20%, #c0392b0a 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 80%, #2980b90a 0%, transparent 50%);
+    }
+
+    /* ── Header ── */
+    .header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .header-label {
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+
+    .header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(28px, 5vw, 48px);
+      font-weight: 700;
+      background: linear-gradient(135deg, #e8eaf0 0%, #9ca3af 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1.2;
+      margin-bottom: 8px;
+    }
+
+    .header p {
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 300;
+    }
+
+    /* ── Bank Badges ── */
+    .banks {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+
+    .bank-badge {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      border-radius: 100px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .bank-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    .bank-badge.ararat .bank-dot { background: var(--ararat); }
+    .bank-badge.acba .bank-dot { background: var(--acba); }
+    .bank-badge.ameria .bank-dot { background: var(--ameria); }
+
+    /* ── Main Card ── */
+    .card {
+      width: 100%;
+      max-width: 600px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      overflow: hidden;
+    }
+
+    /* ── Chat Area ── */
+    .chat-area {
+      height: 380px;
+      overflow-y: auto;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .empty-state {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      color: var(--muted);
+    }
+
+    .empty-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+    }
+
+    .empty-state p {
+      font-size: 14px;
+      text-align: center;
+      max-width: 200px;
+      line-height: 1.6;
+    }
+
+    .message {
+      display: flex;
+      gap: 12px;
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .message.user { flex-direction: row-reverse; }
+
+    .avatar {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .message.user .avatar {
+      background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    }
+
+    .message.agent .avatar {
+      background: linear-gradient(135deg, var(--ararat), #e74c3c);
+    }
+
+    .bubble {
+      max-width: 75%;
+      padding: 12px 16px;
+      border-radius: 16px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .message.user .bubble {
+      background: linear-gradient(135deg, #4f46e5, #7c3aed);
+      color: white;
+      border-bottom-right-radius: 4px;
+    }
+
+    .message.agent .bubble {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-bottom-left-radius: 4px;
+    }
+
+    /* ── Divider ── */
+    .divider {
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ── Controls ── */
+    .controls {
+      padding: 20px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    /* Status */
+    .status-bar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--muted);
+      transition: background 0.3s;
+    }
+
+    .status-dot.connected { background: var(--acba); box-shadow: 0 0 8px var(--acba); }
+    .status-dot.speaking { background: var(--gold); box-shadow: 0 0 8px var(--gold); animation: pulse 1s infinite; }
+    .status-dot.thinking { background: var(--ameria); box-shadow: 0 0 8px var(--ameria); animation: pulse 1.5s infinite; }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    /* Buttons row */
+    .btn-row {
+      display: flex;
+      gap: 10px;
+    }
+
+    .btn {
+      flex: 1;
+      padding: 14px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--ararat), #e74c3c);
+      color: white;
+      border: none;
+    }
+
+    .btn-primary:hover { opacity: 0.9; transform: translateY(-1px); }
+    .btn-primary:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
+
+    .btn-secondary {
+      background: var(--surface2);
+      color: var(--text);
+    }
+
+    .btn-secondary:hover { background: var(--border); }
+    .btn-secondary:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    /* Mic button */
+    .mic-btn {
+      width: 100%;
+      padding: 16px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: var(--surface2);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .mic-btn:hover { background: #ffffff0a; }
+    .mic-btn.active {
+      background: linear-gradient(135deg, #7c3aed22, #4f46e522);
+      border-color: #7c3aed44;
+      color: #a78bfa;
+    }
+    .mic-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    /* Token input */
+    .token-section {
+      display: flex;
+      gap: 8px;
+    }
+
+    .token-input {
+      flex: 1;
+      padding: 12px 14px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: var(--surface2);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .token-input::placeholder { color: var(--muted); }
+    .token-input:focus { border-color: #4f46e555; }
+
+    /* ── Footer ── */
+    .footer {
+      margin-top: 32px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    #audio-container { display: none; }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <p class="header-label">Voice AI Assistant</p>
+    <h1>Հայկական Բանկեր<br/>AI Օգնական</h1>
+    <p>Ավանդներ · Վարկեր · Մասնաճյուղեր</p>
+  </div>
+
+  <div class="banks">
+    <div class="bank-badge ararat">
+      <div class="bank-dot"></div>
+      Արարատ Բանկ
+    </div>
+    <div class="bank-badge acba">
+      <div class="bank-dot"></div>
+      ԱԿԲԱ Բանկ
+    </div>
+    <div class="bank-badge ameria">
+      <div class="bank-dot"></div>
+      Ամերիա Բանկ
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="chat-area" id="chatArea">
+      <div class="empty-state" id="emptyState">
+        <div class="empty-icon">🎙️</div>
+        <p>Կապվեք և սկսեք խոսել հայերեն</p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="controls">
+      <div class="status-bar">
+        <div class="status-dot" id="statusDot"></div>
+        <span id="statusText">Կապ չկա</span>
+      </div>
+
+      <div class="token-section">
+        <input
+          class="token-input"
+          id="tokenInput"
+          type="text"
+          placeholder="Տեղադրեք token-ը..."
+        />
+      </div>
+
+      <div class="btn-row">
+        <button class="btn btn-primary" id="connectBtn" onclick="connect()">
+          🔗 Կապվել
+        </button>
+        <button class="btn btn-secondary" id="disconnectBtn" onclick="disconnect()" disabled>
+          ✕ Անջատել
+        </button>
+      </div>
+
+      <button class="mic-btn" id="micBtn" disabled onclick="toggleMic()">
+        🎙️ Միկրոֆոն
+      </button>
+    </div>
+  </div>
+
+  <div id="audio-container"></div>
+
+  <div class="footer">
+    Հայկական Բանկեր Voice AI · LiveKit · Whisper · GPT-4o-mini
+  </div>
+
+  <script>
+    let room = null;
+    let micEnabled = false;
+
+    function setStatus(type, text) {
+      const dot = document.getElementById('statusDot');
+      const label = document.getElementById('statusText');
+      dot.className = 'status-dot ' + type;
+      label.textContent = text;
+    }
+
+    function addMessage(role, text) {
+      const area = document.getElementById('chatArea');
+      const empty = document.getElementById('emptyState');
+      if (empty) empty.remove();
+
+      const msg = document.createElement('div');
+      msg.className = 'message ' + role;
+      msg.innerHTML = `
+        <div class="avatar">${role === 'user' ? '👤' : '🏦'}</div>
+        <div class="bubble">${text}</div>
+      `;
+      area.appendChild(msg);
+      area.scrollTop = area.scrollHeight;
+    }
+
+    async function connect() {
+      const token = document.getElementById('tokenInput').value.trim();
+      if (!token) { alert('Խնդրում ենք տեղադրել token-ը'); return; }
+
+      try {
+        room = new LivekitClient.Room();
+
+        room.on(LivekitClient.RoomEvent.TrackSubscribed, (track, pub, participant) => {
+          if (track.kind === LivekitClient.Track.Kind.Audio) {
+            const el = track.attach();
+            document.getElementById('audio-container').appendChild(el);
+          }
+        });
+
+        room.on(LivekitClient.RoomEvent.TranscriptionReceived, (segments, participant) => {
+          segments.forEach(seg => {
+            if (seg.final) {
+              const role = participant?.isLocal ? 'user' : 'agent';
+              addMessage(role, seg.text);
+            }
+          });
+        });
+
+        room.on(LivekitClient.RoomEvent.ActiveSpeakersChanged, (speakers) => {
+          const isAgentSpeaking = speakers.some(s => !s.isLocal);
+          if (isAgentSpeaking) setStatus('speaking', 'Օgնականը խոսում է...');
+          else if (micEnabled) setStatus('connected', 'Կապված · Լսում է');
+        });
+
+        await room.connect('ws://localhost:7880', token);
+        setStatus('connected', 'Կապված');
+
+        document.getElementById('connectBtn').disabled = true;
+        document.getElementById('disconnectBtn').disabled = false;
+        document.getElementById('micBtn').disabled = false;
+
+        addMessage('agent', 'Բարև ձեզ։ Ես հայկական բանկերի AI օgնականն եմ։ Ինչո՞վ կարող եմ օgնել։');
+
+      } catch (err) {
+        alert('Կապի սխալ: ' + err.message);
+      }
+    }
+
+    async function toggleMic() {
+      if (!room) return;
+      micEnabled = !micEnabled;
+      await room.localParticipant.setMicrophoneEnabled(micEnabled);
+      const btn = document.getElementById('micBtn');
+      btn.classList.toggle('active', micEnabled);
+      btn.textContent = micEnabled ? '🔴 Անջատել միկրոֆոնը' : '🎙️ Միկրոֆոն';
+      setStatus(micEnabled ? 'connected' : 'connected', micEnabled ? 'Կապված · Լսում է' : 'Կապված');
+    }
+
+    async function disconnect() {
+      if (room) {
+        await room.disconnect();
+        room = null;
+        micEnabled = false;
+      }
+      setStatus('', 'Կապ չկա');
+      document.getElementById('connectBtn').disabled = false;
+      document.getElementById('disconnectBtn').disabled = true;
+      document.getElementById('micBtn').disabled = true;
+      document.getElementById('micBtn').classList.remove('active');
+      document.getElementById('micBtn').textContent = '🎙️ Միկրոֆոն';
+    }
+  </script>
+</body>
+</html>

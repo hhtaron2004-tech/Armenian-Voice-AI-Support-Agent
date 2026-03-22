@@ -1,0 +1,389 @@
+[
+  {
+    "id": "acba_classic_deposit_general_terms",
+    "content": "Կլասիկ Տերմինային Դեպոզիտը հնարավորություն է տալիս խելամիտ կառավարել ձեր միջոցները 1–36 ամիս (31–1098 օր) ժամկետով՝ ստանալ տոկոսագումար ավանդված միջոցների վրա և օգտվել տարբեր առավելություններից՝ կախված ավանդի չափից։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "classic_deposit",
+      "topic": "general_terms",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/classic"
+    },
+    "structured": {}
+  },
+  {
+    "id": "acba_classic_deposit_currencies",
+    "content": "Կլասիկ Դեպոզիտը մատչելի է AMD, USD, EUR և RUR արժույթներով։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "classic_deposit",
+      "topic": "currencies",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/classic"
+    },
+    "structured": {
+      "currencies": ["AMD","USD","EUR","RUR"]
+    }
+  },
+  {
+    "id": "acba_classic_deposit_term",
+    "content": "Ժամկետը տատանվում է 31–1098 օր (1–36 ամիս)՝ կախված ավանդատուի ընտրությունից։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "classic_deposit",
+      "topic": "term",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/classic"
+    },
+    "structured": {
+      "term_days_min": 31,
+      "term_days_max": 1098,
+      "term_months_min": 1,
+      "term_months_max": 36
+    }
+  },
+  {
+    "id": "acba_classic_deposit_minimum_amount",
+    "content": "Նվազագույն ավանդի գումար՝ 50,000 AMD, 200 USD, 200 EUR, 5,000 RUR։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "classic_deposit",
+      "topic": "minimum_amount",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/classic"
+    },
+    "structured": {
+      "min_amount": {
+        "AMD": 50000,
+        "USD": 200,
+        "EUR": 200,
+        "RUR": 5000
+      }
+    }
+  },
+  {
+    "id": "acba_classic_deposit_interest",
+    "content": "Տոկոսադրույքները կախված են ավանդի ժամկետից և արժույթից: AMD՝ 4.6% (31–90 օր), մինչև 9.6% (733–1098 օր)։ USD, EUR և RUR տոկոսադրույքները հասանելի են բանկում: Մասնաճյուղերում տոկոսը 0.1% ցածր է։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "classic_deposit",
+      "topic": "interest",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/classic"
+    },
+    "structured": {
+      "interest_rate_range": {
+        "AMD": {"min":4.6,"max":9.6},
+        "USD": {"min":null,"max":null},
+        "EUR": {"min":null,"max":null},
+        "RUR": {"min":null,"max":null}
+      }
+    }
+  },
+  {
+    "id": "acba_classic_deposit_replenishment",
+    "content": "Ավանդի գումարը հնարավոր է ավելացնել ցանկացած պահի, բացառությամբ վերջին 3 ամսվա։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "classic_deposit",
+      "topic": "replenishment",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/classic"
+    },
+    "structured": {}
+  },
+  {
+    "id": "acba_accumulative_deposit_general_terms",
+    "content": "Ակումուլյատիվ դեպոզիտը թույլ է տալիս հաճախորդներին պարբերաբար գումար ավելացնել իրենց ավանդի հաշվին, և տոկոսը հաշվարկվում է ամեն օր հաշվի մնացորդի հիման վրա։ Հնարավոր են նաև երրորդ կողմի փոխանցումներ։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "accumulative_deposit",
+      "topic": "general_terms",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/accumulative"
+    },
+    "structured": {}
+  },
+  {
+    "id": "acba_accumulative_deposit_currencies",
+    "content": "Ակումուլյատիվ դեպոզիտը մատչելի է AMD, USD և EUR արժույթներով։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "accumulative_deposit",
+      "topic": "currencies",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/accumulative"
+    },
+    "structured": {
+      "currencies": ["AMD","USD","EUR"]
+    }
+  },
+  {
+    "id": "acba_accumulative_deposit_term",
+    "content": "Ակումուլյատիվ դեպոզիտը ճկուն ժամկետներով է, հաճախորդները կարող են ընտրել և փոփոխել ավանդի ժամանակահատվածը։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "accumulative_deposit",
+      "topic": "term",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/accumulative"
+    },
+    "structured": {}
+  },
+  {
+    "id": "acba_accumulative_deposit_minimum_amount",
+    "content": "Մինիմալ սկզբնական ավանդի գումարը կախված է ընտրված արժույթից՝ AMD, USD կամ EUR։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "accumulative_deposit",
+      "topic": "minimum_amount",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/accumulative"
+    },
+    "structured": {}
+  },
+  {
+    "id": "acba_family_time_deposit_general_terms",
+    "content": "Family Time Deposit-ը թույլ է տալիս հաճախորդներին խնայել և ստանալ տոկոսագումար՝ ապահովելով իրենց ընտանիքի ֆինանսական բարեկեցությունը։ Տերմինային դեպոզիտ է՝ միջնաժամկետ խնայողական նպատակների համար։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "family_time_deposit",
+      "topic": "general_terms",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/family"
+    },
+    "structured": {}
+  },
+  {
+    "id": "acba_family_time_deposit_currencies",
+    "content": "Family Time Deposit-ը մատչելի է AMD, USD, EUR և RUR արժույթներով։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "family_time_deposit",
+      "topic": "currencies",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/family"
+    },
+    "structured": {
+      "currencies": ["AMD","USD","EUR","RUR"]
+    }
+  },
+  {
+    "id": "acba_family_time_deposit_term",
+    "content": "Ժամկետը տատանվում է 31–732 օր (1–24 ամիս)։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "family_time_deposit",
+      "topic": "term",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/family"
+    },
+    "structured": {
+      "term_days_min": 31,
+      "term_days_max": 732,
+      "term_months_min": 1,
+      "term_months_max": 24
+    }
+  },
+  {
+    "id": "acba_family_time_deposit_minimum_amount",
+    "content": "Նվազագույն ավանդ՝ 50,000 AMD, 200 USD, 200 EUR, 5,000 RUR։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "family_time_deposit",
+      "topic": "minimum_amount",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/family"
+    },
+    "structured": {
+      "min_amount": {
+        "AMD": 50000,
+        "USD": 200,
+        "EUR": 200,
+        "RUR": 5000
+      }
+    }
+  },
+  {
+    "id": "acba_family_time_deposit_interest",
+    "content": "Տոկոսը վճարվում է՝ կախված ընտրված արժույթից և ժամկետից։ Ճշգրիտ տոկոսադրույքները հասանելի են բանկի պաշտոնական կայքում կամ մասնաճյուղերում։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "family_time_deposit",
+      "topic": "interest",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/family"
+    },
+    "structured": {}
+  },
+  {
+    "id": "acba_family_time_deposit_replenishment",
+    "content": "Լրացման կանոնները կախված են ACBA բանկի քաղաքականությունից։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "family_time_deposit",
+      "topic": "replenishment",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/family"
+    },
+    "structured": {}
+  },
+  {
+    "id": "acba_family_time_deposit_documents",
+    "content": "Հաշիվ բացելու համար պահանջվում է վավեր անձնագիր և հանրային ծառայությունների համարը կամ այլ փաստաթղթեր՝ ըստ բանկի պահանջների։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "family_time_deposit",
+      "topic": "documents",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/family"
+    },
+    "structured": {}
+  },
+  {
+    "id": "acba_for_children_deposit_general_terms",
+    "content": "«For Children» Deposit-ը նախատեսված է ծնողների համար՝ երեխայի ապագայի ֆինանսական կարիքների համար գումար կուտակելու և տոկոս ստանալու որոշակի ժամկետում։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "for_children_deposit",
+      "topic": "general_terms",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/for-children"
+    },
+    "structured": {}
+  },
+  {
+    "id": "acba_for_children_deposit_currencies",
+    "content": "Մատչելի է AMD, USD, EUR և RUR արժույթներով։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "for_children_deposit",
+      "topic": "currencies",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/for-children"
+    },
+    "structured": {
+      "currencies": ["AMD","USD","EUR","RUR"]
+    }
+  },
+  {
+    "id": "acba_for_children_deposit_term",
+    "content": "Ժամկետը տատանվում է 31–1825 օր (1–60 ամիս)։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "for_children_deposit",
+      "topic": "term",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/for-children"
+    },
+    "structured": {
+      "term_days_min": 31,
+      "term_days_max": 1825,
+      "term_months_min": 1,
+      "term_months_max": 60
+    }
+  },
+  {
+    "id": "acba_for_children_deposit_minimum_amount",
+    "content": "Նվազագույն ավանդ՝ 50,000 AMD, 200 USD, 200 EUR, 5,000 RUR։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "for_children_deposit",
+      "topic": "minimum_amount",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/for-children"
+    },
+    "structured": {
+      "min_amount": {
+        "AMD": 50000,
+        "USD": 200,
+        "EUR": 200,
+        "RUR": 5000
+      }
+    }
+  },
+  {
+    "id": "acba_for_children_deposit_interest",
+    "content": "Տոկոսը վճարվում է ժամկետի ավարտին՝ կախված արժույթից և դեպոզիտի ժամկետից։ Ճշգրիտ տոկոսադրույքները հասանելի են բացման պահին։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "for_children_deposit",
+      "topic": "interest",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/for-children"
+    },
+    "structured": {}
+  },
+  {
+    "id": "acba_for_children_deposit_replenishment",
+    "content": "Ավանդի համալրման կանոնները կախված են բանկի քաղաքականությունից։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "for_children_deposit",
+      "topic": "replenishment",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/for-children"
+    },
+    "structured": {}
+  },
+  {
+    "id": "acba_for_children_deposit_documents",
+    "content": "Հաշիվ բացելու համար անհրաժեշտ է վավեր անձնագիր և ցանկացած փաստաթուղթ՝ ըստ բանկի պահանջների (օրինակ՝ հանրային ծառայությունների համարը)։",
+    "metadata": {
+      "bank": "ACBA Bank",
+      "bank_id": "acba",
+      "type": "deposit",
+      "product": "for_children_deposit",
+      "topic": "documents",
+      "language": "hy",
+      "source_url": "https://www.acba.am/en/individuals/save-and-invest/deposits/for-children"
+    },
+    "structured": {}
+  }
+]
