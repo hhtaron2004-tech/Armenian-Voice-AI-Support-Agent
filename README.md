@@ -98,7 +98,7 @@ The agent:
                  │ Audio
                  ▼
         User hears Armenian response
-        ```
+```
 
 ---
 
