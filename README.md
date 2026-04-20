@@ -44,28 +44,28 @@ The agent:
 ## 🏗️ Architecture
 
 ```
-User speaks Armenian
-        │
-        ▼
-┌─────────────────┐
-│   LiveKit Room  │  ← Open-source WebRTC server
-│   (WebRTC)      │
-└────────┬────────┘
-         │ Audio frames
-         ▼
-┌─────────────────┐
-│  Silero VAD     │  ← Voice Activity Detection
-│                 │     Detects when user is speaking
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│  OpenAI STT     │  ← Armenian speech → text
-│ gpt-4o-transcr. │     language="hy", with Armenian
-│                 │     bank vocabulary prompt
-└────────┬────────┘
-         │ Armenian text
-         ▼
+        User speaks Armenian
+                │
+                ▼
+        ┌─────────────────┐
+        │   LiveKit Room  │  ← Open-source WebRTC server
+        │   (WebRTC)      │
+        └────────┬────────┘
+                 │ Audio frames
+                 ▼
+        ┌─────────────────┐
+        │  Silero VAD     │  ← Voice Activity Detection
+        │                 │     Detects when user is speaking
+        └────────┬────────┘
+                 │
+                 ▼
+        ┌─────────────────┐
+        │  OpenAI STT     │  ← Armenian speech → text
+        │ gpt-4o-transcr. │     language="hy", with Armenian
+        │                 │     bank vocabulary prompt
+        └────────┬────────┘
+                 │ Armenian text
+                 ▼
 ┌──────────────────────────────────────┐
 │            RAG Pipeline              │
 │                                      │
@@ -84,21 +84,21 @@ User speaks Armenian
 └────────────────┬─────────────────────┘
                  │ Retrieved context + query
                  ▼
-┌─────────────────┐
-│  GPT-4o-mini    │  ← LLM: generates Armenian answer
-│                 │     grounded strictly in retrieved
-│                 │     data, temperature=0.2
-└────────┬────────┘
-         │ Armenian text answer
-         ▼
-┌─────────────────┐
-│  OpenAI TTS     │  ← Armenian text → speech
-│  (tts-1, nova)  │     voice="nova", speed=0.85
-└────────┬────────┘
-         │ Audio
-         ▼
-User hears Armenian response
-```
+        ┌─────────────────┐
+        │  GPT-4o-mini    │  ← LLM: generates Armenian answer
+        │                 │     grounded strictly in retrieved
+        │                 │     data, temperature=0.2
+        └────────┬────────┘
+                 │ Armenian text answer
+                 ▼
+        ┌─────────────────┐
+        │  OpenAI TTS     │  ← Armenian text → speech
+        │  (tts-1, nova)  │     voice="nova", speed=0.85
+        └────────┬────────┘
+                 │ Audio
+                 ▼
+        User hears Armenian response
+        ```
 
 ---
 
